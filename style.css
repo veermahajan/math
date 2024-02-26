@@ -1,0 +1,29 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+#queries{
+	visibility: hidden;
+}
+.q{
+  font-weight:bold;
+}
+
+@media (min-width:1000px){
+  #flag{
+    width:25%;
+  }
+}
+@media (min-width:601px) and (max-width:999px){
+  #flag{
+    width:40%;
+  }
+}
+@media (max-width:600px){
+  #flag{
+    width:100%;
+  }
+  h1{
+    text-align: center;
+  }
+}
